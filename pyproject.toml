@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "restaurants_in_my_area"
+version = "0.1.0"
+description = ""
+authors = ["Ahmed Taha"]
+
+[tool.poetry.dependencies]
+python = "^3.7.9"
+Django = "^3.2.6"
+GDAL = "3.0.4"
+proj = "^0.2.0"
+geos = "^0.2.3"
+django-environ = "^0.4.5"
+spatialite = "^0.0.3"
+django-location-field = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
